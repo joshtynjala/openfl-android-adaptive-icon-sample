@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="OpenFL Android Adaptive Icon" package="com.feathersui.AdaptiveIcon" version="1.0.0" company="Bowler Hat LLC"/>
+	<app main="SampleMain" file="AdaptiveIcon"/>
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	
+	<source path="src" />
+	
+	<haxelib name="openfl" />
+	
+	<!--
+		this directory contains Android resources that should be copied to the output.
+	-->
+	<template path="custom-templates"/>
+
+	<config:android>
+		<!-- specify the resource to use for the adaptive icon on Android -->
+		<application android:icon="@mipmap/ic_launcher"/>
+	</config:android>
+</project>
