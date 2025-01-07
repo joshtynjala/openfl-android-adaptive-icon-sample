@@ -8,7 +8,7 @@ This sample project contains a directory named [_custom-templates_](https://gith
 <template path="custom-templates"/>
 ```
 
-Inside [_custom-templates_](https://github.com/joshtynjala/openfl-android-adaptive-icon-sample/tree/main/custom-templates), there's a file at [_android/template/app/src/main/res/mipmap-anydpi-v26/ic\_launcher.xml_](https://github.com/joshtynjala/openfl-android-adaptive-icon-sample/tree/main/custom-templates/android/template/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml). This is a custom JavaScript library that needs to be called from Haxe code.
+Inside [_custom-templates_](https://github.com/joshtynjala/openfl-android-adaptive-icon-sample/tree/main/custom-templates), there's a file at [_android/template/app/src/main/res/mipmap-anydpi-v26/ic\_launcher.xml_](https://github.com/joshtynjala/openfl-android-adaptive-icon-sample/tree/main/custom-templates/android/template/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml). This is an Android resource that defines how the icon looks.
 
 To add an adaptive icon to the generated _AndroidManifest.xml_ file, configure it in [_project.xml_](https://github.com/joshtynjala/openfl-android-adaptive-icon-sample/tree/main/project.xml) like this:
 
